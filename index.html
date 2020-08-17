@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote #BeHappy</title>
+    <link rel="stylesheet" href="./styles/smaller-mobile.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/smaller-desktop.css">
+    <link rel="stylesheet" href="./styles/desktop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/fontawesome/css/all.css">
+</head>
+<body>
+<!--------FAVORITE BUTTON--------->
+  <header>
+      <div class="favorite-button">
+          <button onclick="favoriteAlert()" id="fav-button">
+            <i class="far fa-star"></i> Add to favorite
+          </button>
+      </div>  
+<!-----------TITLE----------->  
+      <div class="title-header">
+        <h1>Your daily dose of motivational quotes</h1>
+      </div>
+  </header>
+<!-----------CONTENT---------->
+  <section>
+      <div class="container">
+          <div id="quote-container">
+              <div id="quote-content">      
+              </div>
+              <div id="quote-author">                
+              </div>
+          </div>
+<!----------RANDOM BUTTON----------->
+          <div class="random-button">
+            <a href="#" id="rand-button">
+              <i class="fas fa-random"></i> New Quote</a>
+          </div>
+      </div>
+  </section>
+<!----------MAPS----------->
+      <div id="map"></div>
+<!----------END------------->
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0ju3DVBgqZogNniNrr7-aj89cRdAhoro" async defer></script>
+</body>
+</html>
+

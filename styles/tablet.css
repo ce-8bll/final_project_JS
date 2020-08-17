@@ -1,0 +1,92 @@
+/* Medium devices (landscape tablets 740x - 991px ) */
+@media only screen and (min-width: 740px) and (max-width:991px){
+    body{
+        background-color: rgb(68, 103, 112);
+    }
+        
+    .favorite-button, .random-button{
+        cursor: pointer;
+        font-family: 'Fascinate Inline', cursive;
+    }
+    
+    .favorite-button {
+        text-align: right;    
+    }
+    
+    #fav-button {
+        color: goldenrod;
+    }
+        
+    #rand-button, #fav-button{
+        text-decoration : none;
+        border-radius: 2px;
+        background-color: grey;    
+        cursor: pointer;
+        border: 2px solid #aaa;
+        font-size: 32px;
+        padding: 2px;
+    }
+    
+    #fav-button:hover, #rand-button:hover{
+        background: darkgrey;
+        transition: background 550ms ease-in-out;     
+    }
+    
+    #fav-button:focus {    
+        border: darkslategray;
+        background-color: darkslategray;
+        padding: 5px;
+    }
+    
+    .title-header{
+        font-family: 'Satisfy', cursive;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .title-header h1{
+        color:black;
+        font-style: italic;
+        font-size: 40px;        
+    }
+    
+    #quote-container{
+        width: 60%;
+        line-height: 2.1em;
+        background: grey;
+        padding:10px;
+        margin:20px auto;
+        text-align: center;
+        height:190px;        
+    }
+    
+    #quote-content{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    #quote-author{
+        font-style: italic;
+        font-size: 20px;
+    }
+        
+    .random-button{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 75px;
+    }
+    
+    #rand-button{
+        color: blanchedalmond;
+    }
+    
+    #rand-button:focus{
+        outline: none;
+    }
+    
+    #map{
+        height: 400px;
+        width: 700px;
+        margin:10px auto;
+    }
+}

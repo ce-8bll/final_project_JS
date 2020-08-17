@@ -1,0 +1,101 @@
+/*Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width:599px){
+	body{
+        background-color: rgb(68, 103, 112);
+    }
+        
+    .favorite-button, .random-button{
+        cursor: pointer;
+        font-family: 'Fascinate Inline', cursive;
+    }
+    
+    .favorite-button {
+        text-align: right;    
+    }
+    
+    #fav-button {
+        color: goldenrod;
+        text-decoration : none;
+        border-radius: 2px;
+        background-color: grey;    
+        cursor: pointer;
+        border: 2px solid #aaa;
+        font-size: 20px;
+        padding: 2px;
+    }
+        
+    #rand-button{
+        text-decoration : none;
+        border-radius: 2px;
+        background-color: grey;    
+        cursor: pointer;
+        border: 2px solid #aaa;
+        font-size: 25px;
+        padding: 2px;
+    }
+    
+    #fav-button:hover, #rand-button:hover{
+        background: darkgrey;
+        transition: background 550ms ease-in-out;     
+    }
+    
+    #fav-button:focus {    
+        border: darkslategray;
+        background-color: darkslategray;
+        padding: 5px;
+    }
+    
+    .title-header{
+        font-family: 'Satisfy', cursive;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .title-header h1{
+        color:black;
+        font-style: italic;
+        font-size: 25px;        
+    }
+    
+    #quote-container{
+        width: 74%;
+        line-height: 1.5em;
+        background: grey;
+        padding:10px;
+        margin:20px auto;
+        text-align: center;
+        height:240px;        
+    }
+    
+    #quote-content{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    #quote-author{
+        font-style: italic;
+        font-size: 15px;
+    }
+        
+    .random-button{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 75px;
+    }
+    
+    #rand-button{
+        color: blanchedalmond;
+    }
+    
+    #rand-button:focus{
+        outline: none;
+    }
+    
+    #map{
+        height: 400px;
+        width: 300px;
+        margin: auto auto;
+    }
+}
